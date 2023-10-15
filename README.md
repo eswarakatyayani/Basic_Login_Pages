@@ -3,7 +3,7 @@ Create Server.py file
 Create Static file which contains imgages.jpg
 Create Templates file which contains .html pages
 Now install flask in local machine as follows:
-Go to cmd at Flask File and type as Foloows:
+Go to cmd at Flask File and type as Follows:
 python -m venv .
 dir
 .\Scripts\activate
