@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+  height: 300px;
+}
+div.gallery:hover {
+  border: 3px solid #777;
+  color:rgb(47, 0, 255);
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="gallery">
+  <a target="_self" href="/nature">
+    <img src="{{url_for('static',filename='img2.jpg')}}" alt="Nature" width="600" height="400">
+  </a>
+  <div class="desc">Nature Images</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="/dogs">
+    <img src="{{imagefile}}" alt="Dogs" width="600" height="400">
+  </a>
+  <div class="desc">Dog Images</div>
+</div>
+</body>
+</html>
+
+
