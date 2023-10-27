@@ -20,4 +20,4 @@ pip install flask_sqlachemy
 dir 
 Now execute: python server.py
 It will be running in 127.0.0.1:5000
-#Evertime just do step 9 and step 19, not all the other steps
+#Evertime just do step 9 and step 21, not all the other steps
